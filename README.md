@@ -1,9 +1,7 @@
-# IMPORTANT: Bug Fixes
+# face detection using javascript
 
-## `navigator.getUserMedia`
+this is a face expression detctor made using javascript.
 
-`navigator.getUserMedia` is now deprecated and is replaced by `navigator.mediaDevices.getUserMedia`. To fix this bug replace all versions of `navigator.getUserMedia` with `navigator.mediaDevices.getUserMedia`
+here,face detection module made by @justadudewhohacks is used for detecting facial expressions.
 
-## Low-end Devices Bug
-
-The video eventListener for `play` fires up too early on low-end machines, before the video is fully loaded, which causes errors to pop up from the Face API and terminates the script (tested on Debian [Firefox] and Windows [Chrome, Firefox]). Replaced by `playing` event, which fires up when the media has enough data to start playing.
+to use this just clone the repo and open index.html in live server.
